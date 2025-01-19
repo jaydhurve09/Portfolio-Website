@@ -36,6 +36,9 @@ import send_icon from './send-icon.png';
 import right_arrow_bold from './right-arrow-bold.png';
 import right_arrow_bold_dark from './right-arrow-bold-dark.png';
 import jay_profile from './Jay-Profile.jpg';
+import jay_logo from './jay-logo.png';
+import jay_logo_dark from './jay-logo-dark.png';
+import jay_image from './Jay-Image.jpg'
 
 export const assets = {
     user_image,
@@ -75,7 +78,10 @@ export const assets = {
     send_icon,
     right_arrow_bold,
     right_arrow_bold_dark,
-    jay_profile
+    jay_profile,
+    jay_logo,
+    jay_logo_dark,
+    jay_image
 };
 
 export const workData = [
