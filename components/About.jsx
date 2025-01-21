@@ -39,7 +39,7 @@ const About = ({isDarkMode}) => {
         transition={{duration: 0.6, delay: 0.8}}
         className='flex-1'>
             <p className='mb-10 max-w-2xl font-Ovo'>
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequatur cupiditate sed quibusdam eveniet dolore consectetur labore incidunt, debitis voluptatem assumenda quo, quis at, eaque voluptates ratione hic dolorem atque quisquam? At ipsum dolore magnam doloremque voluptatum expedita, possimus a quod recusandae aperiam, voluptate nesciunt officia itaque facere aut, accusamus in quos saepe. Et doloribus, nam sapiente.
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequatur cupiditate sed quibusdam eveniet dolore consectetur labore incidunt, debitis voluptatem assumenda quo, quis at, eaque voluptates ratione hic dolorem atque quisquam?
             </p>
 
             <motion.ul
