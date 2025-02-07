@@ -35,8 +35,10 @@ import jay_profile from './Jay-Profile.jpg';
 import jay_logo from './jay-logo.png';
 import jay_logo_dark from './jay-logo-dark.png';
 import jay_image from './Jay-Image.jpg'
+import postgresql from './postgresql.png'
 
 export const assets = {
+    postgresql,
     code_icon,
     code_icon_dark,
     edu_icon,
@@ -107,11 +109,11 @@ export const serviceData = [
 ]
 
 export const infoList = [
-    { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Languages', description: 'HTML, CSS, JavaScript React Js, Next Js' },
-    { icon: assets.edu_icon, iconDark: assets.edu_icon_dark, title: 'Education', description: 'B.Tech in Computer Science' },
-    { icon: assets.project_icon, iconDark: assets.project_icon_dark, title: 'Projects', description: 'Built more than 5 projects' }
+    { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Languages & Frameworks', description: 'Java, JavaScript, Python, React Js, Next Js, Node JS, PHP' },
+    { icon: assets.edu_icon, iconDark: assets.edu_icon_dark, title: 'Education', description: `B.Tech in CSE Cyber Security, Diploma in Computer Engineering` },
+    { icon: assets.project_icon, iconDark: assets.project_icon_dark, title: 'Projects', description: 'Developed a variety of impactful projects, showcasing creativity and technical expertise.' }
 ];
 
 export const toolsData = [
-    assets.vscode, assets.firebase, assets.mongodb, assets.figma, assets.git
+    assets.vscode, assets.postgresql, assets.mongodb, assets.figma, assets.git
 ];

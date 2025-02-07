@@ -25,7 +25,7 @@ const Work = ({isDarkMode}) => {
       initial={{opacity: 0}}
       whileInView={{opacity: 1}}
       transition={{delay: 0.7, duration: 0.5}}
-      className='text-center max-w-2xl mx-auto mt-5 mb-12 font-Ovo'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque possimus error ea incidunt! Quibusdam, deleniti? Non quasi odit, omnis quae architecto illo eveniet.</motion.p>
+      className='text-center max-w-2xl mx-auto mt-5 mb-12 font-Ovo'>Explore my showcase of projects that highlight creativity, functionality, and attention to detail, crafted to deliver exceptional results.</motion.p>
       
       <motion.div 
       initial={{opacity: 0}}

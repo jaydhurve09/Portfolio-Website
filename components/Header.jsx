@@ -23,12 +23,12 @@ const Header = () => {
         initial={{y: -30, opacity: 0}}
         whileInView={{y: 0, opacity: 1}}
         transition={{duration: 0.8, delay: 0.3}}
-         className='font-Ovo text-3xl sm:text-6xl lg:text-[66px]'>frontend web developer based in India</motion.h1>
+         className='font-Ovo text-3xl sm:text-6xl lg:text-[66px]'>fullstack web and mobile app developer</motion.h1>
         <motion.p 
         initial={{opacity: 0}}
         whileInView={{opacity: 1}}
         transition={{duration: 0.6, delay: 0.7}}
-        className='max-w-2xl mx-auto font-Ovo'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rem voluptate dignissimos facere error fugiat expedita obcaecati ipsum optio neque! Hic.</motion.p>
+        className='max-w-2xl mx-auto font-Ovo'>Building dynamic, responsive, and user-friendly web applications with expertise in the MERN stack and a focus on scalable, efficient solutions.</motion.p>
 
         <div className='flex flex-col sm:flex-row items center gap-4 mt-4 '>
             <motion.a 

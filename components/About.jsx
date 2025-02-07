@@ -9,7 +9,7 @@ const About = ({isDarkMode}) => {
     initial={{opacity: 0}}
     whileInView={{opacity: 1}}
     transition={{duration: 1}}
-    id='about' className='w-full p-[12%] py-10 scroll-mt-20'>
+    id='about' className='w-full p-[12%] py-7 scroll-mt-20'>
       <motion.h4
       initial={{opacity: 0, y:-20}}
       whileInView={{opacity: 1, y:0}}
@@ -25,7 +25,7 @@ const About = ({isDarkMode}) => {
       initial={{opacity: 0}}
       whileInView={{opacity: 1}}
       transition={{duration: 0.8}}
-      className='flex w-full flex-col lg:flex-row items-center gap-20 my-20'>
+      className='flex w-full flex-col lg:flex-row items-center gap-20 my-10'>
         <motion.div 
         initial={{opacity: 0}}
         whileInView={{opacity: 1, scale: 1}}
@@ -39,7 +39,7 @@ const About = ({isDarkMode}) => {
         transition={{duration: 0.6, delay: 0.8}}
         className='flex-1'>
             <p className='mb-10 max-w-2xl font-Ovo'>
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequatur cupiditate sed quibusdam eveniet dolore consectetur labore incidunt, debitis voluptatem assumenda quo, quis at, eaque voluptates ratione hic dolorem atque quisquam?
+            I am a web and application developer specializing in the MERN stack and proficient in Java, creating dynamic and responsive applications. I focus on building scalable solutions and delivering impactful web and app experiences.
             </p>
 
             <motion.ul
