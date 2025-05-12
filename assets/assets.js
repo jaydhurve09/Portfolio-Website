@@ -80,30 +80,34 @@ export const assets = {
 
 export const workData = [
     {
-        title: 'Frontend project',
-        description: 'Web Design',
-        bgImage: '/work-1.png',
+        title: 'LiveLink',
+        description: 'Real Time Chat App',
+        bgImage: '/chat-app.png',
+        ref: 'https://github.com/jaydhurve09/Realtime-Chat-App'
     },
     {
-        title: 'Geo based app',
-        description: 'Mobile App',
-        bgImage: '/work-2.png',
+        title: 'Wealth Wave',
+        description: 'An AI Stock Trading app',
+        bgImage: '/wealthwave.png',
+        ref: 'https://wealthwavetech.vercel.app/',
     },
     {
-        title: 'Photography site',
-        description: 'Web Design',
-        bgImage: '/work-3.png',
+        title: 'GithubInsight',
+        description: 'Github Repo Analyze',
+        bgImage: '/git-repo-analyzer.png',
+        ref: 'https://caffine-code-rsoc-2025.vercel.app/'
     },
     {
-        title: 'UI/UX designing',
-        description: 'UI/UX Design',
-        bgImage: '/work-4.png',
+        title: 'Glowing Pong',
+        description: 'A multiplayer pong game',
+        bgImage: '/glowing-pong.jpg',
+        ref: 'https://github.com/jaydhurve09/Pong-Game'
     },
 ]
 
 export const serviceData = [
     { icon: assets.web_icon, title: 'Web design', description: 'Web development is the process of building, programming...', link: '' },
-    { icon: assets.mobile_icon, title: 'Mobile app', description: 'Mobile app development involves creating software for mobile devices...', link: '' },
+    // { icon: assets.mobile_icon, title: 'Mobile app', description: 'Mobile app development involves creating software for mobile devices...', link: '' },
     { icon: assets.ui_icon, title: 'UI/UX design', description: 'UI/UX design focuses on creating a seamless user experience...', link: '' },
     { icon: assets.graphics_icon, title: 'Graphics design', description: 'Creative design solutions to enhance visual communication...', link: '' },
 ]
